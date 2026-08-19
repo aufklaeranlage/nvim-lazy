@@ -1,6 +1,5 @@
-require ('config.options')
-require ('core.lazy')
-require ('core.lsp')
-require ('config.keymaps')
-require ('config.autocmds')
+require ("minimal.settings")
+require ("minimal.lazy")
+require ("minimal.keymaps")
 
+vim.lsp.enable("clangd")
